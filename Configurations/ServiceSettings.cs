@@ -16,4 +16,5 @@
  dotnet user-secrets set ServiceSettings:Api [the secret key]
 here are the commands you need to configure for a propery defined in the appsettings
  */
+//dotnet user-secret list 
 //then y0u need to add a package that helps you to contact with the api
