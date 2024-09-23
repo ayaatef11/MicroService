@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aya Atef\\Source\\Repos\\microService\\microService.csproj": {}
+    "F:\\microService\\MicroService\\microService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aya Atef\\Source\\Repos\\microService\\microService.csproj": {
+    "F:\\microService\\MicroService\\microService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aya Atef\\Source\\Repos\\microService\\microService.csproj",
+        "projectUniqueName": "F:\\microService\\MicroService\\microService.csproj",
         "projectName": "microService",
-        "projectPath": "C:\\Users\\Aya Atef\\Source\\Repos\\microService\\microService.csproj",
+        "projectPath": "F:\\microService\\MicroService\\microService.csproj",
         "packagesPath": "C:\\Users\\Aya Atef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aya Atef\\Source\\Repos\\microService\\obj\\",
+        "outputPath": "F:\\microService\\MicroService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aya Atef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
