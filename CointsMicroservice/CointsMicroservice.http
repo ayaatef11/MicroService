@@ -1,0 +1,6 @@
+@CointsMicroservice_HostAddress = http://localhost:5068
+
+GET {{CointsMicroservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
